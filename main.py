@@ -20,8 +20,9 @@ def make_timestamp(opt):
 
     # 이미지 폴더의 file path
     #file_path = "/home/taeyoungkim/Desktop/Matching_TimeStamp_Images/Images"
-
+    global str # NameError: free variable 'str' referenced before assignment in enclosing scope 오류 해결
     file_list = os.listdir(file_path)   # file path에 있는 파일들 list 불러오기
+    file_list.sort(key=lambda f: int(''.join(filter(str.isdigit, f))))
     image_list = opt.image_list_name
     # test.txt라는 파일에 .jpg파일 이름을 txt 파일로 반환
     with open(image_list,'w') as f:

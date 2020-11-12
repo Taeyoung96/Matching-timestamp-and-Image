@@ -38,4 +38,4 @@ You need to provide 2 argments(essential) & 3 argments(optional)
 > 2802320_d477b071be.txt Images/8426183211_4f8efa2e64.jpg  
 > 12191050105_2c6026bcda_k.txt Images/379883550_ef848a76c7.jpg...  
 
-## I just upload the Sample Image Folder and label.txt! :smile:  
+## I just upload the Sample Image Folder and timestamp.txt! :smile:  

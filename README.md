@@ -7,7 +7,7 @@ For example, when you have 1000 images, time stamp.txt has 1000 lines for each i
 
 ```
 > matching_TimeStampAndImage
-  > Image folder
+  > Image folder (Depth Image is also possible.)
     > 00000000.jpg
       00000001.jpg 
       00000002.jpg ...
@@ -16,8 +16,12 @@ For example, when you have 1000 images, time stamp.txt has 1000 lines for each i
 ```
 
 ### Just run the code!
-`python main.py --image_path [YOUR IMAGE FOLDER's ABSOLUTE PATH] --time_stamp [YOUR TIME STAMP.txt]`
+- `python main.py --image_path [YOUR IMAGE FOLDER's ABSOLUTE PATH] --time_stamp [YOUR TIME STAMP.txt]` :   
+You could make matching lists between Image and timestamp.  
 
+- `split..py` : You could split only timestamp information separated by 'rgb.txt'.  
+
+#### When you run `main.py`..  
 You need to provide 2 argments(essential) & 3 argments(optional)  
 **Essential**  
 - --image_path : Your Image folder's absolute path  
